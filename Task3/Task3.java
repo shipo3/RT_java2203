@@ -28,10 +28,8 @@ public class Task3 {
 	} catch (IOException e) {
 	    e.printStackTrace();
 	}
-	Integer i = Integer.valueOf(str);
-	int num = i.intValue();
 	Judgement arg = new Judgement();
-	arg.authenticity(num);
+	arg.authenticity(str);
     }
 
     private static void taste() throws IOException {
