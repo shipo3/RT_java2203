@@ -51,5 +51,4 @@ public class Main2 {
 	DayOfWeek dof = date.getDayOfWeek();
 	System.out.println("課題2-3：3年後の今日の曜日は　" + dof);
     }
-
 }

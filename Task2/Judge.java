@@ -21,5 +21,4 @@ public class Judge {
 	Judgement arg = new Judgement();
 	arg.authenticity(str);
     }
-
 }

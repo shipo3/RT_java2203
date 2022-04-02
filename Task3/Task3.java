@@ -51,5 +51,4 @@ public class Task3 {
 	} // for文でmapから取り出しながらプリントする
 	map.forEach((key, value) -> System.out.println((key + 1) + " 位は" + value));
     }
-
 }

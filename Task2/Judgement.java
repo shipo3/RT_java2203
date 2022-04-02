@@ -18,7 +18,5 @@ public class Judgement {
 	} catch (NumberFormatException e) {
 	    System.out.println("数値0または１を入力して下さい。");
 	}
-
     }
-
 }

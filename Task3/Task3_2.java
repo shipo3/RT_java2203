@@ -26,6 +26,5 @@ public class Task3_2 {
 	    e.printStackTrace();
 	}
 	System.out.println("End");
-
     }
 }
