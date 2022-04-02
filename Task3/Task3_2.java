@@ -1,3 +1,5 @@
+package Task3;
+
 //代表的なIOException
 
 public class Task3_2 {

@@ -18,7 +18,7 @@ public class Main2 {
     }
 
     private static void helloWorld() {
-	System.out.println("「こんにちは　世界」を入力して下さい。");
+	System.out.println("「こんにちは　世界」と入力して下さい。");
 	String greeting;
 //try-with-resources 文を用いて自動で閉じる	
 	try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
@@ -27,7 +27,7 @@ public class Main2 {
 	    e.printStackTrace();
 	}
 	greeting = "Hello World";
-	System.out.println("課題2-1：" + greeting);
+	System.out.println("課題2-1：英語で　" + greeting);
     }
 
     private static void sum() {
@@ -35,21 +35,21 @@ public class Main2 {
 	for (int i = 1; i <= 10; i++) {
 	    sum += i;
 	}
-	System.out.println("課題2-2：" + sum);
+	System.out.println("課題2-2：1～10まで足した結果は　" + sum);
 //1行で
 	System.out.println("1行で：" + IntStream.rangeClosed(1, 10).sum());
     }
 
     private static void dayOfWeek() {
 //現在日時が設定されたインスタンスを生成
-	LocalDateTime datetime = LocalDateTime.now();
+	LocalDateTime now = LocalDateTime.now();
 //日付のみに分離
-	LocalDate date = datetime.toLocalDate();
+	LocalDate date = now.toLocalDate();
 //3年プラスする
 	date = date.plusYears(3);
 //その日の曜日を取得する
 	DayOfWeek dof = date.getDayOfWeek();
-	System.out.println("課題2-3：" + dof);
+	System.out.println("課題2-3：3年後の今日の曜日は　" + dof);
     }
 
 }

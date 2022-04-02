@@ -18,10 +18,8 @@ public class Judge {
 	    if (br != null)
 		br.close();
 	}
-	Integer i = Integer.valueOf(str);
-	int num = i.intValue();
 	Judgement arg = new Judgement();
-	arg.authenticity(num);
+	arg.authenticity(str);
     }
 
 }

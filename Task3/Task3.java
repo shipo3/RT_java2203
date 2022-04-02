@@ -1,3 +1,5 @@
+package Task3;
+
 //最初のメソッド内でBufferedReaderをcloseすると後の方に「Stream closed」のIOExceptionが発生する
 
 import java.io.BufferedReader;
