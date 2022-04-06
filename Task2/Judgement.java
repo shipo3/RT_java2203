@@ -1,4 +1,4 @@
-package Task2;
+package task2;
 
 //課題2-4で使う　真偽を判定するクラス
 public class Judgement {

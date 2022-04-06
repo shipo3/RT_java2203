@@ -1,4 +1,4 @@
-package Task3;
+package task3;
 
 //代表的なIOException
 
