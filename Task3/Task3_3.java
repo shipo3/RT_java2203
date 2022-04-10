@@ -15,7 +15,7 @@ public class Task3_3 {
 	    String word2 = word.stripLeading();
 	    if (word2.isEmpty()) {
 // 文字列が空の場合、作成した例外を投げる
-		throw new EmptyException("番号または名前を入力して下さい。");
+		throw new EnteredValueEmptyException("番号または名前を入力して下さい。");
 
 	    } else {
 //空出ない場合は出力する		
