@@ -1,4 +1,4 @@
-package Task3;
+package task3;
 
 //最初のメソッド内でBufferedReaderをcloseすると後の方に「Stream closed」のIOExceptionが発生する
 
@@ -7,8 +7,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
-
-import Task2.Judgement;
 
 public class Task3 {
 
